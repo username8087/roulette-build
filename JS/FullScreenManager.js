@@ -131,9 +131,7 @@ function LockDevice() {
         console.warn('Screen orientation locking not supported on this device');
     }
 }
-function PlayNowBtnClick() {
-    ShowPrerollAd();
-}
+
 function ResumeBtnClick() {
 
     FullScreen();
