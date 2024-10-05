@@ -180,7 +180,7 @@ function ShowBrowseAd() {
 function ShowPrerollAd() {
 
 	IsAdsRunning = false;
-
+	LoadUnityGame();
 	if(AdsBlocked == 1)
 	{
 		console.warn("Ads Blocker is enabled! Can't show ads")
